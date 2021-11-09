@@ -1,5 +1,5 @@
 @import "./utils/variables";
-@import "./utils/functions";
+@import "./utils/function";
 @import "./utils/mixins";
 @import "./utils/extensions";
 @import "./utils/placeholders";
@@ -9,10 +9,10 @@
 
 @import "./components/buttons";
 
-@import "./layouts/header";
-@import "./layouts/nav";
-@import "./layouts/container";
-@import "./layouts/form";
+@import "./layout/header";
+@import "./layout/nav";
+@import "./layout/container";
+@import "./layout/form";
 
 @import "./pages/work";
 @import "./pages/about";

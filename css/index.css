@@ -1,5 +1,32 @@
-.footer {
+.restos article img {
+  width: 130px;
+  height: 140px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+footer {
   background-color: #353535;
+  padding-bottom: 5%;
+}
+footer h4 {
+  font-family: "shrikhand";
+  color: white;
+  margin: 5%;
+  font-size: 1.2em;
+  padding-top: 5%;
+  margin-top: 0;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+#footer-block {
+  display: flex;
+  margin: auto;
+  padding: 40px 60px;
+  max-width: 1350px;
 }
 
 /*# sourceMappingURL=index.css.map */

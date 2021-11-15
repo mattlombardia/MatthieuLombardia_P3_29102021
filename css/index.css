@@ -21,12 +21,23 @@ footer h4 {
   font-weight: normal;
   letter-spacing: 1px;
 }
-
-#footer-block {
+footer .fas {
+  color: white;
+  padding-right: 2%;
+}
+footer nav {
+  list-style: none;
+  margin-left: 5%;
   display: flex;
-  margin: auto;
-  padding: 40px 60px;
-  max-width: 1350px;
+  flex-direction: column;
+}
+footer strong,
+footer a {
+  color: white;
+  line-height: 30px;
+}
+footer strong {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=index.css.map */

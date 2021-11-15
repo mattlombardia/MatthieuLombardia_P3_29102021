@@ -13,16 +13,26 @@ footer {
         letter-spacing: 1px;
     }
 
+    .fas {
+        color: white;
+        padding-right: 2%;
+    }
 
+    nav {
+        list-style: none;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    strong,
+    a {
+        color: white;
+        line-height: 30px;
+
+    }
+
+    strong {
+        font-weight: bold;
+    }
 }
-
-
-
-#footer-block {
-    display: flex;
-    margin: auto;
-    padding: 40px 60px;
-    max-width: 1350px;
-}
-
-footer article {}

@@ -7,6 +7,10 @@
   border-bottom-left-radius: 20px;
 }
 
+.footertxt {
+  font-weight: bold;
+}
+
 footer {
   background-color: #353535;
   padding-bottom: 5%;

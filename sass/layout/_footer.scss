@@ -1,43 +1,14 @@
 .footertxt {
     font-weight: bold;
-    text-decoration: none;
-    }
+}
 
 footer {
     background-color: rgb(53, 53, 53);
     padding-bottom: 5%;
+    color: white;
+    font-family: $font-titre;
 
-    h4 {
-        font-family: $font-titre;
-        color: white;
-        margin: 5%;
-        font-size: 1.2em;
-        padding-top: 5%;
-        margin-top: 0;
-        font-weight: normal;
-        letter-spacing: 1px;
-    }
-
-    .fas {
-        color: white;
-        padding-right: 2%;
-    }
-
-    nav {
-        list-style: none;
-        margin-left: 5%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    strong,
     a {
         color: white;
-        line-height: 30px;
-
-    }
-
-    strong {
-        font-weight: bold;
     }
 }

@@ -1,48 +1,34 @@
-.restos article img {
-  width: 130px;
-  height: 140px;
+* {
+  border: 1px solid black;
+  text-decoration: none;
+  width: auto;
+  text-align: justify;
+  padding: 0.6em;
+  margin: 0.5em 0.5em 0.5em 0.5em;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+img {
+  width: 20em;
+  height: auto;
   object-fit: cover;
   flex-shrink: 0;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-radius: 20px;
 }
 
 .footertxt {
   font-weight: bold;
-  text-decoration: none;
 }
 
 footer {
   background-color: #353535;
   padding-bottom: 5%;
-}
-footer h4 {
+  color: white;
   font-family: "shrikhand";
-  color: white;
-  margin: 5%;
-  font-size: 1.2em;
-  padding-top: 5%;
-  margin-top: 0;
-  font-weight: normal;
-  letter-spacing: 1px;
 }
-footer .fas {
-  color: white;
-  padding-right: 2%;
-}
-footer nav {
-  list-style: none;
-  margin-left: 5%;
-  display: flex;
-  flex-direction: column;
-}
-footer strong,
 footer a {
   color: white;
-  line-height: 30px;
-}
-footer strong {
-  font-weight: bold;
 }
 
 /*# sourceMappingURL=index.css.map */

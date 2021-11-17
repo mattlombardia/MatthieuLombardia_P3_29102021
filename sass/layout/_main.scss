@@ -1,9 +1,19 @@
-.restos article img
-{
-    width: 130px;
-    height: 140px;
+* {
+    border: 1px solid black;
+    text-decoration: none;
+    width: auto;
+    text-align: justify;
+    padding:0.6em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    word-wrap: break-word;
+    text-align: center;
+
+}
+
+img {
+    width:20em;
+    height: auto;
     object-fit: cover;
     flex-shrink: 0;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px;
 }

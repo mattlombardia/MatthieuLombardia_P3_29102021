@@ -18,8 +18,16 @@ header {
   font-family: "roboto";
 }
 
+.location {
+  background-color: blueviolet;
+}
+
 .restos {
   background-color: #f6f6f6;
+}
+
+.restotxt {
+  text-align: left;
 }
 
 .fonction {
@@ -52,6 +60,7 @@ img {
 
 .footertxt {
   font-weight: bold;
+  text-align: left;
 }
 
 footer {
@@ -59,9 +68,12 @@ footer {
   padding-bottom: 5%;
   color: white;
   font-family: "shrikhand";
+  display: flex;
+  flex-direction: column;
 }
 footer a {
   color: white;
+  text-align: left;
 }
 
 /*# sourceMappingURL=index.css.map */

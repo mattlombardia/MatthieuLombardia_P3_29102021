@@ -10,9 +10,17 @@
     font-family: $font-texte;
 }
 
-.restos
+.location {
+    background-color: blueviolet;
+}
+.restos 
 {
     background-color: $colour-background-light;
+}
+
+.restotxt
+{
+    text-align: left;
 }
 
 .fonction

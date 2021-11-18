@@ -3,15 +3,42 @@
     text-decoration: none;
     width: auto;
     text-align: justify;
-    padding:0.6em;
+    padding: 0.6em;
     margin: 0.5em 0.5em 0.5em 0.5em;
     word-wrap: break-word;
     text-align: center;
+    font-family: $font-texte;
+}
+
+.restos
+{
+    background-color: $colour-background-light;
+}
+
+.fonction
+{
+    background-color: pink;
+}
+
+main {
+    background-color: $colour-tertiary;
+}
+
+body {
+    background-color: yellowgreen;
+}
+
+html {
+    background-color: black;
+}
+
+h1 h2 h3 {
+    font-family: $font-titre;
 
 }
 
 img {
-    width:20em;
+    width: 20em;
     height: auto;
     object-fit: cover;
     flex-shrink: 0;

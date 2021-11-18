@@ -1,3 +1,11 @@
+header {
+  background-color: #9356DC;
+}
+
+.menu {
+  background-color: goldenrod;
+}
+
 * {
   border: 1px solid black;
   text-decoration: none;
@@ -7,6 +15,31 @@
   margin: 0.5em 0.5em 0.5em 0.5em;
   word-wrap: break-word;
   text-align: center;
+  font-family: "roboto";
+}
+
+.restos {
+  background-color: #f6f6f6;
+}
+
+.fonction {
+  background-color: pink;
+}
+
+main {
+  background-color: #99E2D0;
+}
+
+body {
+  background-color: yellowgreen;
+}
+
+html {
+  background-color: black;
+}
+
+h1 h2 h3 {
+  font-family: "shrikhand";
 }
 
 img {

@@ -1,19 +1,13 @@
 header {
   background-color: white;
-  padding: auto;
-  height: auto;
+  display: flex;
+  justify-content: center;
   font-size: 2.5em;
 }
 
-* {
-  border: 1px dashed #fdf903;
-  text-decoration: none;
-  text-align: justify;
-  padding: 10px;
-  margin: 10px 10px 10px 10px;
-  word-wrap: break-word;
-  text-align: center;
-  font-family: "roboto";
+#bloc_page {
+  width: 400px;
+  margin: auto;
 }
 
 .search {
@@ -88,6 +82,22 @@ footer {
 footer a {
   color: white;
   text-align: left;
+}
+
+* {
+  border: 1px dashed black;
+  text-decoration: none;
+  text-align: justify;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  word-wrap: break-word;
+  text-align: center;
+  font-family: "roboto";
+}
+
+a {
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
 }
 
 /*# sourceMappingURL=index.css.map */

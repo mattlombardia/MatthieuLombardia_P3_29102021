@@ -1,12 +1,8 @@
-* {
-    border: 1px dashed rgb(253, 249, 3);
-    text-decoration: none;
-    text-align: justify;
-    padding: 10px;
-    margin: 10px 10px 10px 10px;
-    word-wrap: break-word;
-    text-align: center;
-    font-family: $font-texte;
+
+
+#bloc_page {
+    width: 400px;
+    margin: auto;
 }
 
 .search {
@@ -20,7 +16,6 @@
     flex-wrap: wrap;
     margin-right: 5%;
     justify-content: space-between;
-
 }
 
 
@@ -60,7 +55,6 @@ html {
 
 h1 h2 h3 {
     font-family: $font-titre;
-
 }
 
 img {

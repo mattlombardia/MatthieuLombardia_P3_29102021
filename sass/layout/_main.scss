@@ -1,23 +1,9 @@
 
 
-#bloc_page {
-    width: 400px;
-    margin: auto;
-}
 
 .search {
     background-color: #ffffff;
 }
-
-.nav {
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-right: 5%;
-    justify-content: space-between;
-}
-
 
 .location {
     background-color: #d2b8eb;
@@ -39,27 +25,13 @@
     text-align: left;
 }
 
-
-
 main {
     background-color: $colour-tertiary;
 }
 
-body {
-    background-color: rgb(158, 158, 158);
-}
-
-html {
-    background-color: rgb(46, 7, 7);
-}
-
-h1 h2 h3 {
-    font-family: $font-titre;
-}
-
 img {
-    width: 350px;
-    height: 250px;
-    object-fit: cover;
+    width: 90%;
+    height: auto;
+    object-fit:cover ;
     border-radius: 2em;
 }

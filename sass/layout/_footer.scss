@@ -5,13 +5,16 @@
 }
 
 footer {
+    padding: 2%;
     background-color: rgb(53, 53, 53);
-    padding-bottom: 5%;
     color: white;
+
     font-family: $font-titre;
+
     display: flex;
     flex-direction: column;
 
+    h3,
     a {
         color: white;
         text-align: left;

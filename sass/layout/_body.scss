@@ -1,7 +1,7 @@
 * {
-    padding: 1px 1px 1px 1px;
-    border: 1px dashed grey;
-    margin: 1px 1px 1px 1px;
+    padding: 3px 3px 3px 3px;
+    /*border: 1px dashed grey;*/
+    margin: 0;
 
     text-decoration: none;
     text-align: center;
@@ -15,7 +15,9 @@
     margin: auto;
 }
 
-
+.search {
+    background-color: #c3e23b;
+}
 
 body {
     background-color: none;

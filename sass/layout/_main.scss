@@ -2,39 +2,45 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: space-between;
     background-color: $colour-background-light;
 }
 
-.location {
-    background-color: #d2b8eb;
+.location , {
+    background-color: white;
     width: auto;
     height: auto;
     display: flex;
     margin: 10px;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
 }
 
 .restotxt {
     text-align: left;
 }
 
+.img-restos {
+    position: relative;
+}
+
 main {
-    background-color: #f2f2f2;
+    background-color: $colour-background-light;
     padding: 2px;
     margin-bottom: 0px;
 }
 
 img {
-    width: 90%;
-    height: auto;
     object-fit: cover;
-    border-radius: 2em;
+    width: 300px;
+    height: 200px;
 }
-
 
 
 @media (min-width: 650px) {

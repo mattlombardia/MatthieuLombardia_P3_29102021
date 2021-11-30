@@ -35,6 +35,10 @@ header {
   font-size: 2.5em;
 }
 
+h1 {
+  font-family: "shrikhand";
+}
+
 #container-restos {
   display: flex;
   flex-direction: row;
@@ -81,7 +85,7 @@ img {
 
 @media (min-width: 650px) {
   .location {
-    background-color: #f601a5;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
   }
@@ -95,7 +99,7 @@ img {
 }
 @media (min-width: 989px) {
   .location {
-    background-color: #0111f6;
+    background-color: white;
   }
 }
 .footertxt {
@@ -118,6 +122,9 @@ footer a {
   padding: 0.2em;
   margin: 0.2em;
 }
+footer h3 {
+  font-family: "shrikhand";
+}
 
 * {
   padding: 3px 3px 3px 3px;
@@ -135,7 +142,7 @@ footer a {
 }
 
 .search {
-  background-color: #c3e23b;
+  background-color: #f6f6f6;
 }
 
 body {

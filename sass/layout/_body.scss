@@ -19,20 +19,12 @@
     background-color: $colour-background-light;
 }
 
-body {
-    background-color: none;
-}
-
-html {
-    background-color: none;
-}
 
 h1 h2 h3 {
     font-family: $font-titre;
 }
 
 .nav {
-    background-color: none;
     display: flex;
     flex-direction: column;
     margin: 5%;

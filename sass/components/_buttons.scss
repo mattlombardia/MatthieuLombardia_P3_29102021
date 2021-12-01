@@ -1,13 +1,11 @@
-.ion-ios-heart-outline {
-    font-size: 40px;
+.fa-heart {
+    font-size: 30px;
     font-weight: bold;
     color: $colour-background-dark;
     position: absolute;
-    top: 90%;
-    left: 85%;
+    top: 88%;
+    left: 87%;
     transform: translate(-50%, -50%);
-    opacity: 0.5;
-    transition: opacity 0.5s ease-in-out;
 }
 
 .btn-new {

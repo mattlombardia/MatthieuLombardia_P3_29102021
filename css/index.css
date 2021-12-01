@@ -11,7 +11,7 @@
 }
 
 .btn-new {
-  font-family: "roboto";
+  font-family: "roboto", sans-serif;
   color: #278870;
   font-weight: 900;
   font-style: normal;
@@ -36,7 +36,7 @@ header {
 }
 
 h1 {
-  font-family: "shrikhand";
+  font-family: "shrikhand", sans-serif;
   font-size: 0.8em;
 }
 
@@ -97,9 +97,8 @@ img {
   border-top-right-radius: 20px;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 450px) {
   .location {
-    background-color: white;
     display: flex;
     flex-wrap: wrap;
   }
@@ -109,6 +108,8 @@ img {
     height: 200px;
     object-fit: cover;
     border-radius: 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
 }
 @media (min-width: 989px) {
@@ -125,7 +126,7 @@ footer {
   padding: 2%;
   background-color: #353535;
   color: white;
-  font-family: "shrikhand";
+  font-family: "shrikhand", sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -137,7 +138,7 @@ footer a {
   margin: 0.2em;
 }
 footer h3 {
-  font-family: "shrikhand";
+  font-family: "shrikhand", sans-serif;
 }
 
 * {
@@ -147,7 +148,7 @@ footer h3 {
   text-decoration: none;
   text-align: center;
   word-wrap: break-word;
-  font-family: "roboto";
+  font-family: "roboto", sans-serif;
 }
 
 #bloc_page {
@@ -160,7 +161,7 @@ footer h3 {
 }
 
 h1 h2 h3 {
-  font-family: "shrikhand";
+  font-family: "shrikhand", sans-serif;
 }
 
 .nav {

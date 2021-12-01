@@ -68,9 +68,8 @@ img {
 }
 
 
-@media (min-width: 650px) {
+@media (min-width: 450px) {
     .location {
-        background-color: white;
         display: flex;
         flex-wrap: wrap;
     }
@@ -80,6 +79,8 @@ img {
         height: 200px;
         object-fit: cover;
         border-radius: 2px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
     }
 
 }

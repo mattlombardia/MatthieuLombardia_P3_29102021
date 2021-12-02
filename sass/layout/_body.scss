@@ -19,6 +19,21 @@
     background-color: $colour-background-light;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info a,
+    {
+    background: linear-gradient(354deg, #9356DC, #FF79DA);
+    color: white;
+    padding: 4%;
+    border-radius: 30px;
+    margin: 10%;
+    font-size: 18px;
+}
 
 h1 h2 h3 {
     font-family: $font-titre;
@@ -29,4 +44,25 @@ h1 h2 h3 {
     flex-direction: column;
     margin: 5%;
     justify-content: space-between;
+}
+
+
+
+
+
+@media (min-width: 450px) {
+
+    .info a,
+        {
+
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 989px) {
+
+    .info a,
+        {
+        font-size: 50px;
+    }
 }

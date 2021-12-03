@@ -49,14 +49,26 @@ h1 h2 h3 {
     justify-content: space-between;
 }
 
-.nav p {
+.element {
+    display: flex;
+    justify-content :space-around;
     background-color: $colour-background-light;
     margin: 2%;
     font-weight: bold;
-    font-size: 14px;
-    border-radius:20px;
-    padding:7%;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 7%;
     box-shadow: $colour-background-semi-light 3px 3px 3px;
+}
+
+.number {
+    color: white;
+    background-color: $colour-primary;
+    padding: 7px;
+    border-radius: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+
 }
 
 .nav h2 {

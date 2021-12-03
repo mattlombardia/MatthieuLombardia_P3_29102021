@@ -186,14 +186,25 @@ h1 h2 h3 {
   justify-content: space-between;
 }
 
-.nav p {
+.element {
+  display: flex;
+  justify-content: space-around;
   background-color: #f6f6f6;
   margin: 2%;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 20px;
   padding: 7%;
   box-shadow: #eaeaea 3px 3px 3px;
+}
+
+.number {
+  color: white;
+  background-color: #9356DC;
+  padding: 7px;
+  border-radius: 50%;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .nav h2 {

@@ -155,12 +155,15 @@ footer h3 {
 }
 
 .search {
-  background-color: #f6f6f6;
+  background-color: #eaeaea;
 }
 
 .info {
   display: flex;
   flex-direction: column;
+  background-color: #f6f6f6;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 
 .info a {
@@ -183,14 +186,30 @@ h1 h2 h3 {
   justify-content: space-between;
 }
 
+.nav p {
+  background-color: #f6f6f6;
+  margin: 2%;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 20px;
+  padding: 7%;
+  box-shadow: #eaeaea 3px 3px 3px;
+}
+
+.nav h2 {
+  text-align: left;
+}
+
 @media (min-width: 450px) {
   .info a {
+    border-radius: 40px;
     font-size: 25px;
   }
 }
 @media (min-width: 989px) {
   .info a {
-    font-size: 50px;
+    font-size: 80px;
+    font-size: 30px;
   }
 }
 

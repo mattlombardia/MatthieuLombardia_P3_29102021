@@ -16,12 +16,15 @@
 }
 
 .search {
-    background-color: $colour-background-light;
+    background-color: $colour-background-semi-light;
 }
 
 .info {
     display: flex;
     flex-direction: column;
+    background-color: $colour-background-light;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 
@@ -46,15 +49,26 @@ h1 h2 h3 {
     justify-content: space-between;
 }
 
+.nav p {
+    background-color: $colour-background-light;
+    margin: 2%;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius:20px;
+    padding:7%;
+    box-shadow: $colour-background-semi-light 3px 3px 3px;
+}
 
-
+.nav h2 {
+    text-align: left;
+}
 
 
 @media (min-width: 450px) {
 
     .info a,
         {
-
+        border-radius: 40px;
         font-size: 25px;
     }
 }
@@ -63,6 +77,7 @@ h1 h2 h3 {
 
     .info a,
         {
-        font-size: 50px;
+        font-size: 80px;
+        font-size: 30px;
     }
 }

@@ -49,9 +49,15 @@ h1 h2 h3 {
     justify-content: space-between;
 }
 
+.nav h2 {
+    text-align: left;
+}
+
+
 .element {
+    align-items: center;
     display: flex;
-    justify-content :space-around;
+    justify-content: space-around;
     background-color: $colour-background-light;
     margin: 2%;
     font-weight: bold;
@@ -68,15 +74,20 @@ h1 h2 h3 {
     border-radius: 50%;
     padding-right: 10px;
     padding-left: 10px;
-
 }
 
-.nav h2 {
-    text-align: left;
+.fas {
+    color: $colour-background-dark;
+    margin: auto;
+    opacity: 70%;
+    font-size: 1.4em;
 }
-
 
 @media (min-width: 450px) {
+
+    html {
+        margin: 1.8em;
+    }
 
     .info a,
         {
@@ -85,8 +96,32 @@ h1 h2 h3 {
     }
 }
 
-@media (min-width: 989px) {
+@media (min-width: 650px) {
 
+    html {
+        margin: 3em;
+    }
+}
+
+@media (min-width: 850px) {
+
+ html {
+     margin: 0;
+ }
+
+    #bloc-page {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+
+footer {
+    padding-right: 100% ;
+    display: flex;
+    flex-wrap: wrap;
+}
     .info a,
         {
         font-size: 80px;

@@ -4,6 +4,11 @@
 
 }
 
+.icon-footer
+{
+    color: white;
+}
+
 footer {
     padding: 2%;
     background-color: rgb(53, 53, 53);
@@ -15,12 +20,17 @@ footer {
     flex-direction: column;
 
     h3,
+    div,
     a {
         color: white;
         text-align: left;
         padding: 0.2em;
         margin: 0.2em;
     }
+
+.fas {
+color: white;
+}
 
     h3 {
         font-family: $font-titre;

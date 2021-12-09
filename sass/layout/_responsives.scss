@@ -1,0 +1,45 @@
+/*Responsive */
+
+@media (min-width: 450px) {
+
+    html {
+        margin: 1.8em;
+    }
+
+    .info a,
+        {
+        border-radius: 40px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 650px) {
+
+    html {
+        margin: 3em;
+    }
+}
+
+@media (min-width: 850px) {
+
+
+    #bloc-page {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+
+    footer {
+        padding-right: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .info a,
+        {
+        font-size: 80px;
+        font-size: 30px;
+    }
+}

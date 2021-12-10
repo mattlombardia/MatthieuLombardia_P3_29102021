@@ -41,14 +41,18 @@
 
 
     footer {
-        padding-right: 100%;
+        padding: 5%;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
     }
 
     .info a,
         {
-        font-size: 27px;
+        font-size: 24px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 20px;
+        margin: 1%;
     }
 }
 
@@ -85,7 +89,7 @@
         display: flex;
         justify-content: space-around;
         margin: 2%;
-        content-right: 100px        ;
+        content-right: 100px;
         padding-top: 30px;
         padding-right: 30px;
         padding-bottom: 30px;

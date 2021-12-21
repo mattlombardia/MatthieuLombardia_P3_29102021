@@ -258,6 +258,12 @@ h1 h2 h3 {
     margin: 1%;
   }
 }
+/* Pages */
+#header-menus {
+  display: inline-flex;
+  align-content: flex-start;
+}
+
 @media (min-width: 989px) {
   .location {
     background-color: white;
@@ -346,6 +352,17 @@ h1 h2 h3 {
     font-weight: 100px;
   }
 }
+#fas-arrow {
+  font-size: 28px;
+  color: black;
+}
+
+#header-menus {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 27%;
+}
+
 .menus {
   background: #f6f6f6;
 }

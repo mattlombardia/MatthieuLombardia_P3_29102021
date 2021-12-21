@@ -1,4 +1,15 @@
-.menus
-{
+#fas-arrow {
+    font-size: 28px;
+    color: black;
+}
+
+#header-menus {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 27%;
+   
+    }
+
+.menus {
     background: $colour-background-light;
 }

@@ -1,3 +1,7 @@
+.image-pages-restos {
+    background-size: cover;
+}
+
 #restosname {
     font-size: 25px;
     text-align: left;
@@ -27,7 +31,8 @@
 .line {
     border: none;
     width: 10%;
-    height: 1px;
+    height: 0.00001rem;
+    background-color: $colour-tertiary;
 }
 
 .category {
@@ -40,7 +45,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    box-shadow: 0.5px 0.5px 5px 2px $colour-background-dark;
+    box-shadow: 00px 0px 10px 5px $colour-background-semi-light;
     margin: 15px;
 
     .push {

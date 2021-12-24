@@ -1,8 +1,17 @@
-@media (min-width: 450px) {
+@media (min-width: 400px) {
 
-    html {
-        margin: 1.8em;
+    #restos-images {
+        width: 100%;
+        height: 300px;
     }
+
+
+    .menus {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
 
     .info a,
         {
@@ -24,14 +33,24 @@
         border-top-right-radius: 20px;
     }
 
-
 }
 
 @media (min-width: 650px) {
 
-    html {
-        margin: 3em;
+
+
+    .command {
+        padding: 1rem;
     }
+
+    /* work pages restos */
+
+    #restos-images {
+        width: 100%;
+        height: 320px;
+    }
+
+
 }
 
 @media (min-width: 850px) {
@@ -56,6 +75,8 @@
         border-radius: 20px;
         margin: 1%;
     }
+
+
 }
 
 /* Pages */
@@ -158,4 +179,12 @@
         text-align: center;
         font-weight: 100px;
     }
+
+    /* Pages restos*/
+
+    .meal {
+        height: 3rem;
+        width: 350px ;
+    }
+
 }

@@ -227,9 +227,16 @@ h1 h2 h3 {
   font-size: 1.4em;
 }
 
-@media (min-width: 450px) {
-  html {
-    margin: 1.8em;
+@media (min-width: 400px) {
+  #restos-images {
+    width: 100%;
+    height: 300px;
+  }
+
+  .menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
   .info a {
@@ -252,8 +259,14 @@ h1 h2 h3 {
   }
 }
 @media (min-width: 650px) {
-  html {
-    margin: 3em;
+  .command {
+    padding: 1rem;
+  }
+
+  /* work pages restos */
+  #restos-images {
+    width: 100%;
+    height: 320px;
   }
 }
 @media (min-width: 850px) {
@@ -369,30 +382,40 @@ h1 h2 h3 {
     text-align: center;
     font-weight: 100px;
   }
+
+  /* Pages restos*/
+  .meal {
+    height: 3rem;
+    width: 350px;
+  }
 }
+#bloc-pages-restos {
+  padding: 0;
+  margin: 0;
+}
+
 .restos {
   overflow: hidden;
   position: relative;
+  /*
+      .name {
+          position: absolute;
+          border-radius: 40px;
+          background-color: $colour-background-light;
+          padding-top: 1.5rem;
+          padding-bottom: 1.5rem;
+          margin: 0;
+          bottom: -60%;
+          width: 100%;
+      }
+  */
 }
 .restos img {
-  width: 414px;
+  width: 400px;
   height: 300px;
   object-fit: cover;
-}
-.restos .name {
-  position: absolute;
-  border-radius: 40px;
-  background-color: #f6f6f6;
-  padding-top: 6%;
-  padding-bottom: 5%;
+  padding: 0;
   margin: 0;
-  bottom: -60%;
-  width: 100%;
-}
-.restos h2 {
-  font-family: "shrikhand", sans-serif;
-  margin-left: 3%;
-  font-size: 1.9em;
 }
 
 #restosname {
@@ -416,19 +439,40 @@ h1 h2 h3 {
   margin-right: 27%;
 }
 
-.menus {
+.menus,
+.bloc-command {
   background: #f6f6f6;
+}
+
+#bloc-restos {
+  background: #f6f6f6;
+  margin-top: 10px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  position: relative;
+  top: -50px;
+}
+#bloc-restos h2 {
+  font-family: "shrikhand", sans-serif;
+  font-size: 2rem;
 }
 
 .line {
   border: none;
-  width: 10%;
+  width: 100%;
   height: 0.00001rem;
   background-color: #99E2D0;
 }
 
 .category {
   text-align: left;
+}
+
+.line-before {
+  content: "";
+  background: #99E2D0;
+  width: 35px;
+  height: 0.01rem;
 }
 
 .meal {

@@ -33,16 +33,6 @@
         border-top-right-radius: 20px;
     }
 
-#fa-heart-pages {
-    font-size: 30px;
-    font-weight: bold;
-    color: $colour-background-dark;
-    position: absolute;
-    top: 4%;
-    left: 85%;
-    transform: translate(-50%, -50%);
-}
-
 }
 
 @media (min-width: 650px) {
@@ -59,18 +49,6 @@
         width: 100%;
         height: 320px;
     }
-
-#fa-heart-pages {
-    font-size: 30px;
-    font-weight: bold;
-    color: $colour-background-dark;
-    position: absolute;
-    top: 4,5%;
-    left: 80%;
-    transform: translate(-50%, -50%);
-}
-
-
 
 }
 
@@ -106,15 +84,6 @@
     align-content: flex-start;
 }
 
-#fa-heart-pages {
-    font-size: 30px;
-    font-weight: bold;
-    color: $colour-background-dark;
-    position: absolute;
-    top: 5%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-}
 
 
 @media (min-width: 989px) {

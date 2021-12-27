@@ -1,3 +1,13 @@
+#fa-heart-pages {
+  font-size: 30px;
+  font-weight: bold;
+  color: #353535;
+  position: absolute;
+  top: 3%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
+
 .fa-heart {
   font-size: 30px;
   font-weight: bold;
@@ -257,6 +267,16 @@ h1 h2 h3 {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
   }
+
+  #fa-heart-pages {
+    font-size: 30px;
+    font-weight: bold;
+    color: #353535;
+    position: absolute;
+    top: 4%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
 }
 @media (min-width: 650px) {
   .command {
@@ -267,6 +287,16 @@ h1 h2 h3 {
   #restos-images {
     width: 100%;
     height: 320px;
+  }
+
+  #fa-heart-pages {
+    font-size: 30px;
+    font-weight: bold;
+    color: #353535;
+    position: absolute;
+    top: 4, 5%;
+    left: 80%;
+    transform: translate(-50%, -50%);
   }
 }
 @media (min-width: 850px) {
@@ -293,6 +323,16 @@ h1 h2 h3 {
 #header-menus {
   display: inline-flex;
   align-content: flex-start;
+}
+
+#fa-heart-pages {
+  font-size: 30px;
+  font-weight: bold;
+  color: #353535;
+  position: absolute;
+  top: 5%;
+  left: 75%;
+  transform: translate(-50%, -50%);
 }
 
 @media (min-width: 989px) {

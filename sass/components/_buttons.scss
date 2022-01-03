@@ -17,6 +17,17 @@
     top: 88%;
     left: 87%;
     transform: translate(-50%, -50%);
+
+    &:hover {
+        font-size: 30px;
+        font-weight: bold;
+        transition: color 1s;
+        color: $colour-primary;
+        position: absolute;
+        top: 88%;
+        left: 87%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 .btn-new {

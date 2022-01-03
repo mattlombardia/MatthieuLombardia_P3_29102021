@@ -17,6 +17,16 @@
   left: 87%;
   transform: translate(-50%, -50%);
 }
+.fa-heart:hover {
+  font-size: 30px;
+  font-weight: bold;
+  transition: color 1s;
+  color: #9356DC;
+  position: absolute;
+  top: 88%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+}
 
 .btn-new {
   font-family: "roboto", sans-serif;

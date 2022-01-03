@@ -6,6 +6,12 @@
     top: 2rem;
     right: 20rem;
     transform: translate(-50%, -50%);
+
+    &:hover {
+        font-weight: bold;
+        transition: color 600ms;
+        color: $colour-primary;
+    }
 }
 
 
@@ -19,16 +25,15 @@
     transform: translate(-50%, -50%);
 
     &:hover {
-        font-size: 30px;
         font-weight: bold;
-        transition: color 1s;
+        transition: color 600ms;
         color: $colour-primary;
-        position: absolute;
-        top: 88%;
-        left: 87%;
-        transform: translate(-50%, -50%);
+        transition: color 500ms;
     }
 }
+
+
+
 
 .btn-new {
     font-family: $font-texte;

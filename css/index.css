@@ -7,6 +7,11 @@
   right: 20rem;
   transform: translate(-50%, -50%);
 }
+#fa-heart-pages:hover {
+  font-weight: bold;
+  transition: color 600ms;
+  color: #9356DC;
+}
 
 .fa-heart {
   font-size: 30px;
@@ -18,14 +23,10 @@
   transform: translate(-50%, -50%);
 }
 .fa-heart:hover {
-  font-size: 30px;
   font-weight: bold;
-  transition: color 1s;
+  transition: color 600ms;
   color: #9356DC;
-  position: absolute;
-  top: 88%;
-  left: 87%;
-  transform: translate(-50%, -50%);
+  transition: color 500ms;
 }
 
 .btn-new {
@@ -517,6 +518,7 @@ h1 h2 h3 {
   box-shadow: 0px 0px 10px 5px #eaeaea;
   margin: 15px;
   max-width: 400px;
+  animation: apparition 0.8s ease-out;
 }
 .meal .push {
   margin-right: auto;
@@ -530,6 +532,16 @@ h1 h2 h3 {
   font-weight: bold;
 }
 
+@keyframes apparition {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transition: translateY(0px);
+  }
+}
 .block-meal {
   margin-top: 15px;
   margin-bottom: 15px;

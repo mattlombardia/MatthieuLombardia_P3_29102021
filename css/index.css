@@ -228,6 +228,9 @@ h1 h2 h3 {
   padding: 7%;
   box-shadow: #eaeaea 3px 3px 3px;
 }
+.element:hover {
+  background-color: rgba(147, 86, 220, 0.15);
+}
 
 .number {
   color: white;

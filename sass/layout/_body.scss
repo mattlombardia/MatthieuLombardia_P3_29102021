@@ -84,6 +84,10 @@ h1 h2 h3 {
     border-radius: 20px;
     padding: 7%;
     box-shadow: $colour-background-semi-light 3px 3px 3px;
+
+    &:hover {
+        background-color: rgba($colour-primary, 0.15);
+    }
 }
 
 .number {

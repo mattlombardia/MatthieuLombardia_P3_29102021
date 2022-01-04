@@ -1,3 +1,30 @@
+@charset "UTF-8";
+/* Animations menus qui montent pages restos*/
+@keyframes apparition {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+/* Animation ajout de plats petite coche à droite qui coulisse*/
+/* Créer animation */
+@keyframes select-dishes {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100px);
+  }
+}
+/* Utiliser animation */
+.meal:hover {
+  animation: select-dishes 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
 #fa-heart-pages {
   font-size: 30px;
   font-weight: 400;
@@ -6,6 +33,7 @@
   top: 2rem;
   right: 20rem;
   transform: translate(-50%, -50%);
+  /* Animation heart menu pages */
 }
 #fa-heart-pages:hover {
   font-weight: bold;
@@ -21,6 +49,7 @@
   top: 88%;
   left: 87%;
   transform: translate(-50%, -50%);
+  /* Animations heart home page*/
 }
 .fa-heart:hover {
   font-weight: bold;
@@ -43,10 +72,11 @@
   border-radius: 2px;
 }
 
+/*
 main :hover .ion-ios-heart-outline {
-  opacity: 1;
+    opacity: 1;
 }
-
+*/
 .command {
   background: linear-gradient(354deg, #9356DC, #FF79DA);
   color: white;
@@ -56,6 +86,7 @@ main :hover .ion-ios-heart-outline {
   margin-bottom: 90px;
   margin-left: 25%;
   margin-right: 25%;
+  /* Animation bouton Commander dans pages restos*/
 }
 .command:hover {
   filter: brightness(1.15);
@@ -520,28 +551,21 @@ h1 h2 h3 {
   max-width: 400px;
   animation: apparition 0.8s ease-out;
 }
-.meal .push {
+
+.push {
   margin-right: auto;
   text-align: left;
 }
-.meal .meal-name {
+
+.meal-name {
   font-weight: bold;
 }
-.meal .price {
+
+.price {
   margin-top: auto;
   font-weight: bold;
 }
 
-@keyframes apparition {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
 .block-meal {
   margin-top: 15px;
   margin-bottom: 15px;

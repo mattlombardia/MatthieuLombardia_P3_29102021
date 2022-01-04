@@ -7,6 +7,7 @@
     right: 20rem;
     transform: translate(-50%, -50%);
 
+    /* Animation heart menu pages */
     &:hover {
         font-weight: bold;
         transition: color 600ms;
@@ -24,6 +25,7 @@
     left: 87%;
     transform: translate(-50%, -50%);
 
+    /* Animations heart home page*/
     &:hover {
         font-weight: bold;
         transition: color 600ms;
@@ -49,9 +51,12 @@
     border-radius: 2px;
 }
 
+ /*
 main :hover .ion-ios-heart-outline {
     opacity: 1;
 }
+*/
+
 
 .command {
     background: linear-gradient(354deg, #9356DC, #FF79DA);
@@ -63,8 +68,10 @@ main :hover .ion-ios-heart-outline {
     margin-left: 25%;
     margin-right: 25%;
 
+    /* Animation bouton Commander dans pages restos*/
+    
     &:hover {
         filter: brightness(1.15);
         box-shadow: 0px 0px 10px 5px $colour-background-dark;
-    }
+    } 
 }

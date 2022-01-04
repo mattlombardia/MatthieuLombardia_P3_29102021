@@ -539,7 +539,7 @@ h1 h2 h3 {
   }
   to {
     opacity: 1;
-    transition: translateY(1px);
+    transform: translateY(0px);
   }
 }
 .block-meal {

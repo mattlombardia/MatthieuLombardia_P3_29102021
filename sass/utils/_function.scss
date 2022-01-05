@@ -17,6 +17,58 @@
 
 /* Créer animation */
 
+.check-icon-box {
+    margin: -13px -70px -20px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    background-color: #99e2d0;
+    height: 62px;
+    width: 60px;
+}
+
+.check-icon-box .check-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.check-icon-box .check-icon i {
+    color: #99e2d0;
+}
+
+.meal:hover .check-icon-box {
+    margin-right: -4px;
+
+}
+
+.meal:hover .check-icon-box .check-icon {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
 /*
 @keyframes select-dishes {
     0% {

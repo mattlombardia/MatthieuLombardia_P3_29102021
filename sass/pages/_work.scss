@@ -107,11 +107,15 @@
     max-width: 400px;
     animation: apparition 0.8s ease-out;
     overflow: hidden;
+
 }
 
 .push {
     margin-right: auto;
     text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .meal-name {

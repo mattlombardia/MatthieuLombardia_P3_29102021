@@ -309,6 +309,7 @@ html {
   border-radius: 30px;
   margin: 10%;
   font-size: 18px;
+  /* Animation boutons */
 }
 .info a:hover {
   filter: brightness(1.15);
@@ -341,9 +342,13 @@ h1 h2 h3 {
   border-radius: 20px;
   padding: 7%;
   box-shadow: #eaeaea 3px 3px 3px;
+  /* Animation menu fonctionnement */
 }
 .element:hover {
   background-color: rgba(147, 86, 220, 0.15);
+}
+.element:hover .fas {
+  color: #9356DC;
 }
 
 .number {

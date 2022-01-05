@@ -431,8 +431,9 @@ h1 h2 h3 {
 
   .menus {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
   }
 
   .info a {
@@ -581,6 +582,13 @@ h1 h2 h3 {
   .meal {
     height: 3rem;
     width: 350px;
+  }
+
+  .menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
 }
 #body-restos {

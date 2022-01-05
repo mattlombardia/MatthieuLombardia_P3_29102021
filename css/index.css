@@ -25,6 +25,78 @@
   animation: select-dishes 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+/* loading spinner */
+.spinner {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(153, 226, 208, 0.7);
+  z-index: 10000;
+  -webkit-animation: hide-spinner 1s 1;
+  animation: hide-spinner 1s 1;
+  visibility: collapse;
+}
+.spinner .spinner-active {
+  border: 20px solid #9356DC;
+  border-top: 20px solid #353535;
+  border-bottom: 20px solid #FF79DA;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  -webkit-animation: spin linear 1.5s 2;
+  animation: spin linear 1.5s 2;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes hide-spinner {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+@keyframes hide-spinner {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
 #fa-heart-pages {
   font-size: 30px;
   font-weight: 400;

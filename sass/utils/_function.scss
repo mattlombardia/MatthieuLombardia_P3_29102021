@@ -16,6 +16,8 @@
 /* Animation ajout de plats petite coche à droite qui coulisse*/
 
 /* Créer animation */
+
+/*
 @keyframes select-dishes {
     0% {
         transform: translateX(0);
@@ -25,17 +27,18 @@
         transform: translateX(-100px);
     }
 }
-
+*/
 
 
 
 /* Utiliser animation */
 
+/*
 .meal:hover {
     animation: select-dishes 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
 }
-
+*/
 
 /* loading spinner */
 

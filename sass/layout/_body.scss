@@ -53,8 +53,8 @@ html {
 
     /* Animation boutons */
     &:hover {
-        filter: brightness(1.15);
-        box-shadow: 0px 0px 10px 5px $colour-background-dark;
+        filter: brightness(1.10);
+        box-shadow: 5px 5px 15px 5px $colour-background-semi-light;
     }
 }
 

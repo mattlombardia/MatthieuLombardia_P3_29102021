@@ -217,8 +217,8 @@ main :hover .ion-ios-heart-outline {
   /* Animation bouton Commander dans pages restos*/
 }
 .command:hover {
-  filter: brightness(1.15);
-  box-shadow: 0px 0px 10px 5px #353535;
+  filter: brightness(1.1);
+  box-shadow: 5px 5px 15px 5px #eaeaea;
 }
 
 header {
@@ -368,8 +368,8 @@ html {
   /* Animation boutons */
 }
 .info a:hover {
-  filter: brightness(1.15);
-  box-shadow: 0px 0px 10px 5px #353535;
+  filter: brightness(1.1);
+  box-shadow: 5px 5px 15px 5px #eaeaea;
 }
 
 h1 h2 h3 {

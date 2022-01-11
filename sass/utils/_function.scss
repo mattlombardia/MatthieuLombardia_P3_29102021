@@ -1,11 +1,21 @@
 /* Animations menus qui montent pages restos*/
 @keyframes apparition {
-    from {
+    0% {
         opacity: 0;
-        transform: translateY(30px)
+        transform: translateY(70px)
     }
 
-    to {
+    25% {
+        opacity: 0.25;
+        transform: translateY(45px)
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translateY(25px)
+    }
+
+    100% {
         opacity: 1;
         transform: translateY(0px);
     }
